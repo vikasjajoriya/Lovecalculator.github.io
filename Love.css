@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('images/bg.jpg'); */
+    background-image: radial-gradient(circle, #bbc2cd, #b8c1d7, #babee0, #c1bae7, #ccb5eb, #d3b1ed, #dcadee, #e5a8ee, #e9a5f0, #eca1f1, #f09ef3, #f49af4);
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+}
+.main-div{
+    box-shadow: 15px 15px 20px 2px pink;
+     background-image: radial-gradient(circle, #bbc2cd, #b8c1d7, #babee0, #c1bae7, #ccb5eb, #d3b1ed, #dcadee, #e5a8ee, #e9a5f0, #eca1f1, #f09ef3, #f49af4);
+    /* backdrop-filter: blur(5px); */
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 40vh;
+}
+.div{
+    height: 5vh;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    background-image: linear-gradient(to left bottom, #e9abec, #e59fed, #e194ed, #dc88ef, #d67df0);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 1; */
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    letter-spacing: 2.2px;
+}
+.div2{
+    /* background: linear-gradient(to top , #68a6bb 0%, #f4ac88 70%); */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.div2 input{
+    background-color: transparent;
+    /* border-style: none; */
+    margin-top: 15px;
+    color: white;
+    outline: none;
+    text-align: center;
+    height: 3vh;
+    width: 70%;
+    border-color: orange;
+}
+.div2 button{
+    width: 71%;
+    height: 4vh;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Satisfy', cursive;
+    cursor: pointer;
+    border-style: none;
+    background: rgb(240 206 212 / 55%);;
+}
+.div2 button:hover{
+   background: transparent;
+   border: 1px solid;
+   color: white;
+}
+.div2 input::placeholder{
+    color: white;
+    text-align: center;
+}
+.div3{
+    height: 5vh;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    background-image: linear-gradient(to right bottom, #e9abec, #e59fed, #e194ed, #dc88ef, #d67df0);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    letter-spacing: 2.2px;
+}
